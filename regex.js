@@ -51,7 +51,7 @@ Expected Output:
 
 */ 
 
-let emailReg = /\w@\D+".com"/
+let emailReg = RegExp(/\w@\D+".com"/)
 console.log(emailReg)
 
 /* 
@@ -68,4 +68,5 @@ Expected Output:
 
 */ 
 
-let statusReg = /write your regex here/
+let statusReg = search(RegExp(/\d\d\d/gi))
+console.log(statusReg)
