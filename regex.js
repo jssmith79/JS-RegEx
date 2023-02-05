@@ -31,8 +31,8 @@ Expected Output:
 
 */ 
  
-let phoneReg = /write your regex here/
-
+let phoneReg = RegExp(/[2-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]/gm)
+console.log(phoneReg)
 /* 
 
 Regular Expression 2: Email 
@@ -51,7 +51,8 @@ Expected Output:
 
 */ 
 
-let emailReg = /write your regex here/
+let emailReg = /\w@\D+".com"/
+console.log(emailReg)
 
 /* 
 
